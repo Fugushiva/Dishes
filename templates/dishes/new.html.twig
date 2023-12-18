@@ -10,13 +10,7 @@
 
 <div class="example-wrapper">
     <h1>{{ title }}!</h1>
-    {% for food in foods  %}
-        <p>{{food.name}}</p>
-    {% endfor %}
-
-    <ul>
-        <li><a href="{{path('app_dishes_new')}}">Ajouter</a></li>
-    </ul>
+    <p>{{form(form)}}</p>
 
 
 
